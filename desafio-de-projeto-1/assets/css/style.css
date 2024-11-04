@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
 
 * {
-  font-family: 'Raleway', sans-serif;
-  box-sizing: border-box;
-  margin: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 header.banner {
@@ -32,6 +32,10 @@ header.banner {
     background-clip: text;
 }
 
+.banner .banner-content h1 {
+    
+}
+
 .banner .banner-content {
     color: #fff;
     font-size: 1.5em;
@@ -39,6 +43,19 @@ header.banner {
     margin-bottom: 16px;
 }
 
+.banner .banner-content button {
+    background-color: transparent;
+    color: #31A8DD;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 1;
+    border-radius: 30px;
+    font-weight: 900;
+    font-size: 1em;
+    padding: 16px 32px;
+    margin-top: 1em;
+}
 
 body {
     background-color: #000;
@@ -47,4 +64,3 @@ body {
 p {
     color: #fff;
 }
-
