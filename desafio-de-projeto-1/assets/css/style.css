@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
 header.banner {
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
     text-align: center;
@@ -12,6 +20,22 @@ header.banner {
     margin: auto;
     border-radius: 50%;
     padding: 16px;
+    margin-bottom: 16px;
+}
+
+.banner .banner-content h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.banner .banner-content {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 300;
     margin-bottom: 16px;
 }
 
