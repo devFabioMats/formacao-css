@@ -32,8 +32,10 @@ header.banner {
     background-clip: text;
 }
 
-.banner .banner-content h1 {
-    
+.banner .banner-content p {
+    display: block;
+    margin: 16px 0 24px;
+    font-size: 1.25rem;
 }
 
 .banner .banner-content {
