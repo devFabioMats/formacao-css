@@ -47,16 +47,13 @@ header.banner {
 
 .banner .banner-content p {
     display: block;
-    margin: 16px 0 24px;
     font-size: 20px;
-    max-width: 600px;
+    font-weight: 400;
     text-align: center;
     margin: auto;
     padding: 30px;
-    letter-spacing: 1px;
     line-height: 23.48px;
-    width: 510px;
-    height: 46px;
+    max-width: 576px;
 }
 
 .banner .banner-content {
@@ -72,16 +69,25 @@ header.banner {
     color: #31A8DD;
     text-transform: uppercase;
     letter-spacing: 4px;
-    border-image: linear-gradient(#3BA1CD, #1572B7);
-    border-image-slice: 1;
+    border: 2px solid #1472B7;
     font-weight: 1;
     font-size: 16px;
-    padding: -10px 91px;
     text-align: center;
 }
 
 body {
     background-color: #000;
+}
+
+.course-content h1 {
+    text-align: center;
+}
+.course-content p {
+    text-align: center;
+}
+
+.module{
+    color: #fff;
 }
 
 p {
