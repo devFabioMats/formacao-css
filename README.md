@@ -2,7 +2,7 @@
 <div align="center">
   <p align="center">
     <img height="150" width="150" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
-    <h1>Formação: CSS3</h1>
+    <h1>Formação: CSS Web Developer</h1>
   </p>
 </div>
 <!--END_SECTION:header-->
