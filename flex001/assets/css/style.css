@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.container {
+    background-color: palegreen;
+    padding: 10px;
+
+    display: inline-flex;
+}
+
+.item {
+    background-color: orange;
+    margin: 10px;
+    padding: 10px;
+}
