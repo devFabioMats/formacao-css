@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.container {
+    background-color: blueviolet;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+
+    /*flex container props*/
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.item {
+    background-color: yellow;
+}
+
+.item-02 {
+    /*max-width: 30px;*/
+}
